@@ -1,0 +1,27 @@
+.wifi-qr-container {
+    display: flex;
+    align-items: center; /* Ensures vertical center alignment */
+    justify-content: space-between;
+    background-color: #f2f2f2e1;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.5);
+}
+
+.wifi-title {
+    font-size: 28px; /* Increased font size */
+    font-family: "Caveat-Regular", "cursive", "sans-serif";  
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+    flex-grow: 1;
+    text-align: center; /* Aligns text to the left */
+    margin-right: 20px; /* Adjust space between title and QR code */
+    padding-left: 40px;
+}
+
+.wifi-qr {
+    max-width: 125px; /* Reduced size of QR code */
+    max-height: 125px; /* Reduced size of QR code */
+    padding-left: 50px; /* Adjust as needed */
+}
